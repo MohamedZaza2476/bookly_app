@@ -11,7 +11,9 @@ class SimilarBooksListView extends StatelessWidget {
       child: ListView.builder(
         scrollDirection: Axis.horizontal,
         itemBuilder: (context, index) {
-          return const CustomBookImage();
+          return const CustomBookImage(
+            imageUrl: 'https://www.bloomsbury.com/uk/harry-potter-and-the-philosophers-stone-9781408855652/',
+          );
         },
       ),
     );
